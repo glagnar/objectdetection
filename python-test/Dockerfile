@@ -1,4 +1,4 @@
-FROM glagnar/opencv:amd64-3.8-4.2.0-GSOFF
+FROM glagnar/opencv:amd64-3.8-4.2.0
 
 WORKDIR /app
 
