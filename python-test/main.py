@@ -7,7 +7,7 @@ def main():
     index = 0
     arr = []
     while True:
-        cap = cv2.VideoCapture(index, cv2.CAP_V4L)
+        cap = cv2.VideoCapture(index)
         if not cap.read()[0]:
             break
         else:
