@@ -1,4 +1,4 @@
-FROM glagnar/opencv:amd64-3.7-4.2.0
+FROM glagnar/opencv:3.7-4.2.0
 
 RUN apt update && apt install -y curl gnupg2
 RUN echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | tee /etc/apt/sources.list.d/coral-edgetpu.list
