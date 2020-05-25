@@ -1,4 +1,5 @@
 # Testing USB Camera from Docker
+This is a simple, no-frills approach to check that Docker has access to your USB camera. It simply loads up the [Motion](https://motion-project.github.io) application, and shows you your camera feed. After running, go to [localhost:8080](http://localhost:8080) or whichever host you are running on. You can also check the `output` folder for images and video files.
 
 ## Docker build
 ```bash

@@ -13,4 +13,4 @@ WORKDIR /app
 
 ADD . .
 
-CMD ["python", "main.py"]
+CMD ["python", "main.py", "--model", "mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite"]
