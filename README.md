@@ -54,3 +54,6 @@ The repository is a set of demonstrators, use them for testing your setup.
     ├── LICENSE
     └── README.md
 
+# Funding
+This project is Financed in part by the Institutional and Educational Support Administration.
+[Smart monitering af infrastruktur og miljø (digiMON)](https://bedreinnovation.dk/smart-monitering-af-infrastruktur-og-miljø-digimon)
