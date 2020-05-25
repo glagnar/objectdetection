@@ -46,6 +46,7 @@ def main():
         ans = engine.detect_with_image(img, threshold = 0.35, keep_aspect_ratio = True, relative_coord= False, top_k = 1) 
         
         pred = "nopeople"
+        pos = 1.0
  
         if ans:
             for obj in ans:
