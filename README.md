@@ -1,10 +1,13 @@
-# OpenCV - EdgeTPU - Object Detection
+# OpenCV - EdgeTPU - Object Detection - Drones
 
 [![Twitter: @thomasbjgilbert](https://img.shields.io/badge/contact-@thomasbjgilbert-blue.svg?style=flat)](https://twitter.com/thomasbjgilbert)
 [![Language: Python](https://img.shields.io/badge/lang-Python-yellow.svg?style=flat)](https://www.python.org/downloads/release/python-370/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 This is repository will provide a framework for using OpenCV with an Edge TPU such as [Coral.ai](https://coral.ai/products/accelerator) for use both in develpment and deployment. It has been made in such a way, that you can develope and test with ease on your local machine - and use Docker to deploy on your hardware like for example the Raspbery Pi.
+
+## Drone Support
+ This framework is specifically tuned to work in a microservice environment, providing new capabilities to Drones using the [ROS](https://robots.ros.org) environment. 
 
 ## Hardware / Software
 This framework has been tested to run on the
@@ -51,6 +54,7 @@ The repository is a set of demonstrators, use them for testing your setup.
     ├── usbcam-test             # Test that your camera is attached, and usable through Docker
     ├── python-test             # Test that OpenCV is able to reach your camera, also through Docker
     ├── tpu-test                # Test that OpenCV works, and the Edge TPU device works, also though Docker
+    ├── drone-detection         # Fully functional microservice for avoidance on drones. Transmits via. socket to a ROS bridge service.
     ├── LICENSE
     └── README.md
 
