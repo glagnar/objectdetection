@@ -7,7 +7,7 @@
 This is repository will provide a framework for using OpenCV with an Edge TPU such as [Coral.ai](https://coral.ai/products/accelerator) for use both in develpment and deployment. It has been made in such a way, that you can develope and test with ease on your local machine - and use Docker to deploy on your hardware like for example the Raspbery Pi.
 
 ## Drone Support
- This framework is specifically tuned to work in a microservice environment, providing new capabilities to Drones using the [ROS](https://robots.ros.org) environment. 
+ This framework is specifically tuned to work in a microservice environment, providing new capabilities to Drones using the [ROS](https://robots.ros.org) ecosystem. 
 
 ## Hardware / Software
 This framework has been tested to run on the
