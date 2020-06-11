@@ -130,3 +130,5 @@ dmypy.json
 
 .DS_Store
 output.avi
+
+.vscode

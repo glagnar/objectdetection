@@ -51,12 +51,14 @@ We have provided a set of multi-arch docker images as a baseline that provide th
 The repository is a set of demonstrators, use them for testing your setup.
 
     .
-    ├── usbcam-test             # Test that your camera is attached, and usable through Docker
-    ├── python-test             # Test that OpenCV is able to reach your camera, also through Docker
-    ├── tpu-test                # Test that OpenCV works, and the Edge TPU device works, also though Docker
-    ├── drone-detection         # Fully functional microservice for avoidance on drones. Transmits via. socket to a ROS bridge service.
+    ├── 1-usbcam-test             # Test that your camera is attached, and usable through Docker
+    ├── 2-python-test             # Test that OpenCV is able to reach your camera, also through Docker
+    ├── 3-tpu-test                # Test that OpenCV works, and the Edge TPU device works, also though Docker
     ├── LICENSE
     └── README.md
+
+# Development on your machine
+If you want to develope your software without having to worry about Docker, you must follow the guides nessecary for setting up e.g. Python, the Coral USB adapter, OpenCV etc. for your specific operating system. Once you are satisfied you can then build the docker image containing your code, and deploy it on your Raspberry Pi or drone.
 
 # Funding
 This project is Financed in part by the Institutional and Educational Support Administration.
